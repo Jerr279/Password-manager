@@ -20,8 +20,8 @@ Option 1:
 2. Build the project using Visual Studio or your preferred IDE.
 
 Option 2:
-1.Download the .msi installer from latest release.
-2.Walk trough the installer.
+1.  Download the .msi installer from latest release.
+2.  Walk trough the installer.
 
 3. Run the application.
 4. Start managing your passwords securely!
