@@ -15,9 +15,14 @@ This is an open-source password manager built with C# and WPF, utilizing AES enc
 - Open-source: Users are free to use and contribute improvements.
 
 ## How to Use
-
+Option 1:
 1. Clone the repository to your local machine.
 2. Build the project using Visual Studio or your preferred IDE.
+
+Option 2:
+1.Download the .msi installer from latest release.
+2.Walk trough the installer.
+
 3. Run the application.
 4. Start managing your passwords securely!
 
