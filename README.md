@@ -1,4 +1,4 @@
-# C# WPF Local Password Manager
+# .NET/C# WPF Local Password Manager
 
 ![logo](https://github.com/Jerr279/Password-manager/assets/97632682/de7c2c2f-10be-4099-805a-f30b9fb1f358)
 
