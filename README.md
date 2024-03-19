@@ -43,3 +43,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Thanks to the developers of AES encryption algorithms for providing secure encryption methods.
 - Special thanks to our contributors for their valuable input and contributions.
+
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/Jerr279) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/jerrz) 
