@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+	<assemblyIdentity version="1.0.0.0" name="MyApplication.app"/>
+	<trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+		<security>
+			<requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+				<!-- Set the execution level to the default (asInvoker) -->
+				<requestedExecutionLevel level="asInvoker" uiAccess="false" />
+			</requestedPrivileges>
+		</security>
+	</trustInfo>
+
+	<!-- Compatibility and other settings -->
+</assembly>
