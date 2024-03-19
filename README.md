@@ -10,7 +10,7 @@ This is an open-source password manager built with C# and WPF, utilizing AES enc
 
 - Secure AES encryption for password storage.
 - User-friendly interface built with WPF.
-- Easily add, edit, and delete password entries.
+- Easily add and delete password entries.
 - Lightweight and easy to use.
 - Open-source: Users are free to use and contribute improvements.
 
