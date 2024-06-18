@@ -436,5 +436,30 @@ namespace Passwordmanager
                 MessageBox.Show($"Error deleting password: {ex.Message}");
             }
         }
+
+        private string GeneratePassword(int length)
+            {
+                const string valid = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_-+=<>?";
+                StringBuilder res = new StringBuilder();
+                using (RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider())
+                {
+                    byte[] uintBuffer = new byte[sizeof(uint)];
+
+                    while (length-- > 0)
+                    {
+                        rng.GetBytes(uintBuffer);
+                        uint num = BitConverter.ToUInt32(uintBuffer, 0);
+                        res.Append(valid[(int)(num % (uint)valid.Length)]);
+                    }
+                }
+                return res.ToString();
+            }
+        private void BtnGenerate_Click(object sender, RoutedEventArgs e)
+        {
+            string generatedPassword = GeneratePassword(16); 
+            txtGeneratedPassword.Text = generatedPassword; 
+        }
+
+
     }
 }
